@@ -27,7 +27,6 @@ Data.append(LT)
 csvCursor.writerow(Header)
 csvCursor.writerow(Data)
 
-
 Data = []   
 url = "http://www.eurexchange.com/exchange-en/products/idx/stx/blc/EURO-STOXX-50--Index-Futures/18954"
 html = requests.get(url)
@@ -46,7 +45,6 @@ Data.append(FESX)
 Data.append(LT)
 csvCursor.writerow(Data)   
  
-
 Data = []    
 url = "http://www.eurexchange.com/exchange-en/products/idx/stx/esf/EURO-STOXX--Banks-Futures/17494"
 html = requests.get(url)
@@ -65,7 +63,6 @@ Data.append(FESB)
 Data.append(LT)
 csvCursor.writerow(Data) 
 
-   
 Data = []    
 url = "http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-Buxl--Futures/15202"
 html = requests.get(url)
@@ -83,7 +80,6 @@ Data.append('FGBX')
 Data.append(FGBX)
 Data.append(LT)
 csvCursor.writerow(Data) 
-
 
 Data = []   
 url = "http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-Bund-Futures/14770"
@@ -103,7 +99,6 @@ Data.append(FGBL)
 Data.append(LT)
 csvCursor.writerow(Data) 
 
-
 Data = []  
 url = "http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-Bobl-Futures/15644"
 html = requests.get(url)
@@ -121,7 +116,6 @@ Data.append('FGBM')
 Data.append(FGBM)
 Data.append(LT)
 csvCursor.writerow(Data) 
-
 
 Data = []      
 url = "http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-Schatz-Futures/16134"
@@ -159,7 +153,6 @@ Data.append('FBTP')
 Data.append(FBTP)
 Data.append(LT)
 csvCursor.writerow(Data) 
-   
  
 Data = [] 
 url = "http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-OAT-Futures/154590"
