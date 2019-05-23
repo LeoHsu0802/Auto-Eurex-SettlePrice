@@ -5,5 +5,8 @@ Auto Eurex SettlePrice(自動爬取歐交所結算價)
 
 寫入後畫面如下
 
+![image](EXCEL1.png)
 
-![image](image.png)
+程式會創建一個客戶身分證的資料夾，並將查詢結果的截圖存入
+
+![image](PIC1.png)
